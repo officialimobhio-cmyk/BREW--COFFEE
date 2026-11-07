@@ -1,0 +1,429 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+ scroll-behaviour:smooth;
+}
+
+.body{
+    font-family:Arial, sans-serif;
+    background-color:#fffaf5;
+    color:#2d1b12;
+    line-height:1.6;
+    }
+
+  .container {
+      width: 90%;
+      max-width: 1200px;
+      margin:0;
+ }
+ 
+ 
+        /*======================
+                NAV BAR
+         ======================*/
+         
+.header{
+    background:#3b2116;
+    color:white;
+    position:sticky;
+    top:0;
+    z-index:1000px;
+}
+
+.navbar{
+    height:70px;
+    background:#2d1b12;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:left;
+}
+
+.logo{
+    margin:15px;
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#d99a5b;
+}
+
+.nav-links{
+    display:flex;
+    gap:5px;
+    list-style:none;
+    cursor:pointer;
+}
+
+.nav-links a{
+    margin:15px;
+    color: white ;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    text-decoration:underline;
+    color: #d99a5b;
+}
+
+.menu-btn{
+    display:none;
+    color:white;
+    font-size:28px;
+    margin:10px;
+    align-item: center;
+    cursor:pointer;
+}
+
+  /*===================== 
+      HERO-SECTION
+  ======================= */
+  
+  
+.hero{
+    min-height:90vh;
+    background:#be850493;
+    display:flex;
+    color:white;
+    align-items:center;
+    }
+    
+.hero-content{
+    max-width:650px;
+}
+
+.hero h1{
+    font-size:60px;
+    line-height: 1.1;
+    margin-bottom:20px;
+}
+
+.hero h1 span{
+      color: #d99a5b;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display: inline-block;
+    background: transparent;
+    color:white;
+    padding:13px 25px;
+    border:2px solid white;
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight:bold;
+    transition: 0.3s;
+   
+}
+
+.btn:hover{
+    color:#d99a5b;
+}
+    
+    
+    /* ABOUT SECTION*/
+    
+.about{
+    Background-color: #f1e5d9;
+     width:100%;
+
+}
+
+ .about-content{
+     display:grid;
+     grid-template-columns:1fr;
+     gap:50px;
+     align-items:center;
+     width:100%;
+ }
+ .about-image img{
+     height:500px;
+     width: 750px;
+     margin-top:10px;;
+     object-fit:cover;
+ }
+ 
+ .about-text h2{
+     font-size:40px;
+     margin-bottom:20px;
+    ;
+ }
+ 
+ .about-text p{
+     colour: #60483a; 
+     margin-bottom:40px ;
+ }
+ 
+ 
+ /* ==========================
+            MENU
+ ============================= */
+     .container{
+    margin:20px;
+    box-sizing:border-box ;
+     }
+
+     .section-tittle{
+        text-align: center;
+        margin-bottom: 45px;
+     }
+     .section-tittle h2{
+        font-size: 38px;
+        margin-bottom: 15px;
+     }
+     .section-tittle p{
+        font-size: 19px;
+     }
+
+    .menu-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }   
+
+    .menu-card{
+        background-color:#efcc9de8;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow:0 5px 20px rgba(0, 0, 0,0.08);
+        transition: 0.4s;
+        cursor: pointer;
+    }
+     
+    .menu-card:hover{
+        transform: translateY(-12px);
+    }
+
+    .menu-card img{
+        width: 400px;;
+        height:300px;
+        object-fit: cover;
+    }
+
+    .menu-info{
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+.menu-info h3{
+  margin-bottom:8px;  
+}
+
+.menu-info p{
+    color: #755b4b;
+    margin: bottom 15px;
+}
+
+.price{
+    font-size:20px;
+    font-weight: bold;
+    color: #a65f2e;
+}
+
+/*=============================
+         CONTACT
+==============================*/
+
+.contact-content{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-info h3{
+    margin-bottom: 15px;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+}
+
+.form-content{
+    display:block ;
+    flex-direction: column;
+    background-color:#f5f2eee8;
+    padding: 1.5rem;
+}
+
+.input-area,
+textarea{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    gap: 20px; 
+    font-size: 16px;
+    
+}
+
+.input:focus,
+textarea:focus{
+    border-color: #a65f2e;
+}
+
+.form-btn{
+    padding: 10px;
+    margin-top: 15px;
+    gap: 20px;
+    background-color:#d99a5b ;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color:#3b2116;
+    color: #fff;
+}
+  /* =========================
+           FOOTER
+     ======================== */
+ 
+ .footer{
+     background: #3b2116;
+     color: white;
+     text-align: center;
+     padding: 20px;
+ }
+.footer-container{
+    min-height:10svh;
+    margin:10px;
+    padding:10px;
+    background: #3b2116;
+}
+ 
+ .footer-brand{
+    display:flex;
+    }
+ .footer-brand h4{
+    align-items: vertical;
+ }
+ 
+.footer-links{
+    text-align: left;
+    margin: 5px;
+}
+    .footer-links a{
+        display: flex;
+        line-height: 1.3;
+        color: #fff;
+    }
+
+    .footer-links a:active{
+         color: #d99a5b;
+}
+    
+    .footer-socials{
+        margin-top: 10px;
+        text-align: left;
+}
+
+.footer-socials a{
+    display: block;
+     color: #fff;
+     line-height: 1.3;
+}
+
+    .footer-socials a:active{
+         color: #d99a5b;
+};
+
+.footer-bottom{
+    font-size: small;
+    margin-top: 30px;
+}
+
+/*===============================
+             MOBILE 
+================================*/
+
+
+    @media(max-width:600px){
+    
+    .header{
+        
+    }
+   
+    .nav-bar{
+        height:65px;               
+    }
+    
+    .logo{
+        font-size:20px;
+    }
+    
+    .menu-btn{
+        display:block;
+    }
+    
+    .nav-links{
+        position: absolute;
+        top:65px;
+        left:0;
+        width:100%;
+        flex-direction:column;
+        background: #3b2116;
+        gap:0;
+        display:none;
+    }
+    
+    .nav-links.active{
+        display:flex;
+    }
+    
+    .nav-link li{
+        width:100%;
+        text-align:center;
+    }
+    .nav-links a{
+        display:block;
+        padding:15px;
+    }
+    .hero {
+        min-height:100vh;
+        padding:30px;
+    }
+   
+   .hero h1{
+       font-size:40px;
+       
+   }
+   
+   .hero p{
+       font-size:16px;
+   }
+   
+  .about-image img{
+     height:450px;
+     width:450px;  
+  }
+
+  .menu-grid{
+        display:flex;
+       flex-direction:column;
+    }
+
+    .menu-card img{
+        width:500px;;
+        height:300px;
+        object-fit: cover;
+}
+ 
+
+    
+    
+    
+    
+    
+    
+ 
